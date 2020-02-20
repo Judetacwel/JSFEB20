@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>document.createElement("myHero")</script>
+    <style>
+        myHero{
+            display:block;
+            background-color: cadetblue;
+            padding: 80;
+            font-size: 80px;
+            text-align: center;
+            color: goldenrod;
+        }
+
+        .black{
+            width: 100%;
+            background-image: url("stock.jpg");
+        }
+        #idselector{
+            color: lightgreen;
+            font-size: medium;
+            
+        }
+        p:only-child{
+            
+            font-size: 50px;
+        }
+
+
+        div ~p{
+            background-color: lightseagreen;
+            text-shadow:midnightblue;
+        }
+
+        body
+        {
+            
+            
+        }
+        a:link{
+            color:olivedrab
+        }
+        table, th, td 
+        {
+            border: 1px solid black;
+            align:center;
+        }
+        
+
+            
+            
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+    <p>My First Class Selector</p>
+    <div class="black">
+        
+        
+        <p id="idselector">My first id selector</p>
+    
+
+        <p>This is a Descendant Selector</p>
+        <myHero>My Hero Element</myHero>
+    </div>   
+    <div>
+        <p>My First Child Selector</p>
+    </div> 
+    <div >
+    <img src="download.jfif" alt="" srcset="">
+    </div>
+    
+    <table>
+        <tr>
+            <th>
+                <p><b><a href="www.google.com" target="_blank">This is the first link</a></b></p>
+
+            </th>
+            <th>
+                <p><b><a href="www.google.com" target="_blank">This is the second link</a></b></p>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <p><b><a href="www.google.com" target="_blank">This is the third link</a></b></p>
+            </th>
+            <th>
+                <p><b><a href="www.google.com" target="_blank">This is the fourth link</a></b></p>
+            </th>
+        </tr>
+    </table>
+    <ul>
+        <li>
+            this is my first list
+        </li>
+        <li>
+            This is my second list
+        </li>
+        <li>
+            This is the third list
+        </li>
+    </ul>
+</body>
+</html>
